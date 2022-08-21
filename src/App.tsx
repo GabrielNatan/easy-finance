@@ -1,12 +1,18 @@
-
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
+import GlobalStyle from "./GlobalStyle.jsx";
+import Home from "./Pages/Home";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-     
-       <div>AQUI</div>
-      </header>
-    </div>
+    <BrowserRouter>
+      <GlobalStyle/>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
