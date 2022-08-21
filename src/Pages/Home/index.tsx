@@ -1,8 +1,9 @@
+import Sidebar from "../../Components/Sidebar";
 
 function Home() {
     return (
       <div className="App">
-        <strong>HOME</strong>
+        <Sidebar/>
       </div>
     );
   }
