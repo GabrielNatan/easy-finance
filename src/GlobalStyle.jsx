@@ -10,6 +10,7 @@ const GlobalStyle = createGlobalStyle`
 
   :root{
     --primary-color: #30A6FB;
+    --primary-color-transparent: #30A6FB50;
     --primary-hover-color: #30A6FB80;
     --secondary-color: #F5F7FE;
     --font-color:#525252;
